@@ -12,7 +12,7 @@ import glob
 
 # Configure WebDriver
 options = webdriver.ChromeOptions()
-download_path = "/Users/gridiii/PycharmProjects/PythonProject/.venv/lib/python3.9"
+download_path = "your/download/path"
 prefs = {
     "download.default_directory": download_path,
     "download.prompt_for_download": False,
@@ -41,8 +41,8 @@ except Exception as e:
 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "username")))
 username = driver.find_element(By.NAME, "username")
 password = driver.find_element(By.NAME, "password")
-username.send_keys("tanushigrd621@gmail.com")  # Replace securely
-password.send_keys("Gridi2008@")  # Replace securely
+username.send_keys("yourname@gmail.com")  # Replace securely
+password.send_keys("yourpassword")  # Replace securely
 password.send_keys(Keys.RETURN)
 
 WebDriverWait(driver, 10).until(EC.url_changes("https://create.kahoot.it/auth/login"))
@@ -158,7 +158,7 @@ with open(text_file_path, "w", encoding="utf-8") as text_file:
 with open(text_file_path, "r", encoding="utf-8") as file:
     text = file.read()
 
-NEURA_API_KEY = "ROINWZY-HKYUO4A-XV22G7I-WKEPWTI"  # Replace if needed
+NEURA_API_KEY = "your-api-key"  # Replace if needed
 tts_url = "https://neura.al/api/v1.5/tts"
 tts_data = {
     "keyId": NEURA_API_KEY,
@@ -202,8 +202,8 @@ else:
     exit()
 
 # STEP 2: Lip-Sync with Everypixel
-EVERYPIXEL_CLIENT_ID = "rytBUf4KfEvNpRY8AvEyFAIV"  # Replace with your credentials
-EVERYPIXEL_CLIENT_SECRET = "Tur16ulFRzvCLcQwPyO75Z4cNiWyABPZn7u6khJiyXbz55Jn"
+EVERYPIXEL_CLIENT_ID = "your-client-id"  # Replace with your credentials
+EVERYPIXEL_CLIENT_SECRET = "your-everypixel-client-secret"
 input_video_path = "input_video.mp4"  # Ensure this file exists
 
 # Convert MP3 to WAV (required for Everypixel)
