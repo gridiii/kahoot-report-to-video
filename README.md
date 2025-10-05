@@ -233,7 +233,7 @@ What you’ll see:
 
 ## License
 
-Choose a license and add it here (e.g., MIT, Apache-2.0).
+MIT
 
 ---
 
