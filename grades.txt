@@ -1,0 +1,5 @@
+Nxënësi Atida ka zënë vendin numër 1, me  105.2 pikë, me notën 10.
+Nxënësi edona ka zënë vendin numër 2, me  102.5 pikë, me notën 10.
+Nxënësi Orest ka zënë vendin numër 3, me  101.0 pikë, me notën 10.
+Nxënësi Leon ka zënë vendin numër 4, me  97.2 pikë, me notën 10.
+Nxënësi Rei ka zënë vendin numër 5, me  94.1 pikë, me notën 10.
